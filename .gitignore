@@ -151,6 +151,11 @@ vite.config.ts.timestamp-*
 # Turbo Repo (https://turborepo.dev/)
 .turbo
 
+# Local credentials and uploaded user content
+/info.md
+/Backend/uploads/
+/Frontend/dist/
+
 # Nx (https://nx.dev/)
 .nx/cache
 .nx/workspace-data
